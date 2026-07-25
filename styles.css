@@ -1,5 +1,6 @@
-body {
+body { 
     height: 100vh;
+   
 }
 
 .logo-links {
@@ -8,20 +9,25 @@ body {
     flex-direction: row;
     align-items: center;
     background-color: #1F2937;
-    padding: 10px;
+    padding-bottom: 100px;
+    padding: 0px 10px;
+    padding-bottom: 50px;
 }
 
+.logo {
+    margin: 0px 400px;
+}
 
 .logo a {
     font-size: 24px;
-    margin-left: 300px;
     color: #F9FAF8;
 }
 
 ul.links {
     display: flex;
-    gap: 20px;
-    margin-right: 300px;
+    gap: 70px;
+    margin: 0px 400px;
+    
     
 }
 ul.links li {
@@ -34,5 +40,52 @@ a {
 }
 
 .upperinfo {
-    margin: 20px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction: row;
+    gap: 40px;
+    
 }
+
+#upinfo01 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 0px 400px;
+}
+
+#uptext1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    width: 300px;
+    font-weight: 900;
+}
+
+#uptext2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#signbutton {
+   display: block;
+    background-color: aqua;
+    height: 30px;
+    width: 80px;
+    margin-top: 5px;
+}
+
+#upinfo2 {
+   margin: 0px 400px 0px 0px;
+   width: 1100px;
+   height: 250px;
+   background-color: rgba(222, 217, 217, 0.341);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
