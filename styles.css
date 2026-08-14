@@ -15,7 +15,7 @@ body {
 }
 
 .logo {
-    margin: 0px 400px;
+    margin: 20px 400px;
 }
 
 .logo a {
@@ -71,11 +71,13 @@ a {
 }
 
 #signbutton {
-   display: block;
-    background-color: aqua;
-    height: 30px;
-    width: 80px;
+    display: block;
+    background-color: rgb(14, 124, 251);
     margin-top: 5px;
+    border-radius:10px;
+    color: white;
+    padding: 10px 40px;
+    font-weight: 900;
 }
 
 #upinfo2 {
@@ -101,10 +103,9 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 60px;
+    gap: 90px;
     align-items:center;
-    
-
+    margin-bottom: 90px;
 }
 
 .boxes {
@@ -121,4 +122,66 @@ a {
 .boxsize {
     width: 150px;
     height: 180px;
+}
+
+#background1 {
+    border-color: solid black;
+    background-color: lightgrey;
+    padding: 100px 500px;
+
+   
+}
+
+.costumerquote {
+    font-size: 43px;
+}
+
+#thor {
+    display: flex;
+    font-size: 30px;
+    justify-content: end;
+    font-weight: 900;
+}
+
+#calltoaction {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(14, 124, 251);
+    margin: 70px 450px;
+    padding: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#info01 {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+#signinfo {
+    display: block;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#sign2 {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 40px;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+    font-size: 20px;
+    color: #ffffff;
 }
